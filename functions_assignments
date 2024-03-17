@@ -1,0 +1,35 @@
+void main()
+{
+  //Function calls
+  addTwo(10, 20);
+  subtractTwo(20, 10);
+  multiplyTwo(20, 10);
+  divideTwo(20, 10);
+  String name = "Michael";
+  stringLength(name);
+}
+//DEFINITION OF THE SUMMING FUNCTION
+void addTwo(int num1, int num2) {
+  int num3 = num1 + num2;
+  print("The sum is $num3");
+}
+//DEFINITION OF THE SUBTRACTION FUNCTION
+void subtractTwo(int num1, int num2) {
+  int num3 = num1 - num2;
+  print("The difference is $num3");
+}
+//DEFINITION OF THE MULTIPLICATION FUNCTION
+void multiplyTwo(int num1, int num2) {
+  int num3 = num1 * num2;
+  print("The product is $num3");
+}
+//DEFINITION OF THE QUOTIENT FUNCTION
+void divideTwo(int num1, int num2) {
+  double num3 = num1 / num2;
+  print("The quotient is $num3");
+}
+//DEFINITION OF THE STRINGLENGTH FUNCTION
+void stringLength(String) {
+  int len = String.length;
+  print("The length of string is: $len");
+}
